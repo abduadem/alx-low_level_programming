@@ -35,7 +35,7 @@ while (h2 <= 2)
 				_putchar('0' + h1);
 				_putchar(':');
 				_putchar('0' + m2);
-				-putchar('0' + m1);
+				_putchar('0' + m1);
 				_putchar('\n');
 				m1++;
 			}
@@ -44,4 +44,5 @@ while (h2 <= 2)
 		h1++;
 	}
 	h2++;
+}
 }
