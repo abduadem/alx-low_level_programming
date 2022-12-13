@@ -2,27 +2,26 @@
 
 
 /**
- * print_sign - prints the sign of a number
- * @r: the int to be printed
- * Return: 1 if int is greater than zero
- * 0 of int is zero
- * -1 if int is less than zero
+ * print_sign - function that prints the sign of a number..
+ * @r: The input number to check
+ * Return: int.
  */
+
 int print_sign(int r)
 {
-	if (n > 0)
+	if (r > 0)
 	{
-		_putchar('+');
+		_putchar(43);
 		return (1);
 	}
-	else if (n == 0)
+	else if (r < 0)
 	{
-		_putchar('0');
-		return (0);
+		_putchar(45);
+		return (-1);
 	}
 	else
 	{
-		_putchar('-');
-		return (-1);
+		_putchar(48);
+		return (0);
 	}
 }
