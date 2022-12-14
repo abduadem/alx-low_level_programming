@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
+print_times_table(int n);
 
 /**
  * print_times_table - prints time table with provided number
