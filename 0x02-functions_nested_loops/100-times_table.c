@@ -2,10 +2,9 @@
 
 /**
  * print_times_table - prints the n times table, starting with 0
- * @n :  times table to use
+ * @n : number of the times table to use
  * Return:void
  */
-
 void print_times_table(int n)
 {
 
