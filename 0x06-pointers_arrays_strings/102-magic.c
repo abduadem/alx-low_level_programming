@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: 'Add one line to print a[2] = 98'
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
