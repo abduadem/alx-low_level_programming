@@ -1,24 +1,24 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
+#include "main.h"
 /**
-* main - Function to print random number and states
-* whether it is positive, negative, or zero
-* Return: End of function
-*/
+ * Main - Entry point
+(* 0 : is the number to be checked 
+ *
+ * Return: Always 0 (success)
+ */
 
-int main(void)
+void positive_or_negative(int i)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n < 0)
-		printf("%d is negative\n", n);
+	if (i < 0)
+	{
+		printf("%d is %s\n", i, "negative");
+	}
+	else if (i > 0)
+	{
+		printf("%d is %s\n", i, "positive");
+	}
 	else
-		printf("%d is zero\n", n);
-	return (0);
+	{
+		printf("%d is %s\n", i, "zero");
+	}
+	return;
 }
