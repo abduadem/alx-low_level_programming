@@ -10,11 +10,11 @@ int main(void)
 {
 	char base; /* base shows base 16 variable */
 
-        for(base = 48; base < 58; base++)
+	for (base = 48; base < 58; base++)
 	{
 		putchar(base);
-        }
-	for(base = 97; base <= 102; base++)
+	}
+	for (base = 97; base <= 102; base++)
 	{
 		putchar(base);
 	}
