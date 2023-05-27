@@ -6,16 +6,18 @@
  * Return: Always 0.
  */
 
-int main()
+int main(void)
 {
-        char base16;
+	char base; /* base shows base 16 variable */
 
-        for(base16 = 48; base16 < 58; base16++){
-                putchar(base16);
+        for(base = 48; base < 58; base++)
+	{
+		putchar(base);
         }
-                for(base16 = 97; base16 <= 102; base16++){
-                        putchar(base16);
-                }
-                putchar('\n');
-                return (0);
+	for(base = 97; base <= 102; base++)
+	{
+		putchar(base);
+	}
+	putchar('\n');
+	return (0);
 }
