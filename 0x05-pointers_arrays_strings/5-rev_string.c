@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * rev_string - This function prints a string in reverse order
+ * rev_string - This function print a string in reverse order
  * @s: pointer parameter
  */
 
